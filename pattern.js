@@ -1,0 +1,9 @@
+n=10;
+p=""
+for(i=0;i<n;i++){
+    for(j=0;j<i;j++){
+        p=p+'*'
+    }
+    p+='\n'
+}
+console.log(p)
