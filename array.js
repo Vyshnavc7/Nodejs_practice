@@ -1,2 +1,4 @@
+var n=require('readline-sync')
+a=n.question("Enter the position")
 var s=["vyshnav","clevin"]
-console.log(s[1])
+console.log(s[a])
