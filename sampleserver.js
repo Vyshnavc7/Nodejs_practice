@@ -1,8 +1,14 @@
 var http= require('http')
+var fs=require('fs')
 
 http.createServer(function(req,res){
-    res.write('VyshnavHello')
-    res.end()
+
+    fs.readFile('index.html',function(err,data){
+        res.writeHead(200,{'Content-type':'text/html'})
+        res.write('Hello')
+        res.end()
+    })
+    
 }).listen(2000)
 
     
