@@ -37,4 +37,34 @@ print("Sorting Array a:"npy.sort(a))
 
 print("Splitting Array a:") al.32,a3,a4=npy.split(arr.[4,10,16])
 
-print(al
+print(al,a2.a3,a4)
+
+print("Splitting along vertical axis into 3 parts:") a5-npy.vsplit(a,3)
+
+print(a5)
+
+#b)broadcasting
+
+import numpy as npy
+
+arri npy.array([2,3,4,6,5,9]).reshape(2,3) print("arr1\n",arrl)
+
+arr2mpy array([100,200,300]).reshape(1,3) print("arr2\n","arr2)
+
+print("sum\n") print(arrl+arr2)
+
+M = npy.ones((2,3))
+
+a = npy.arange(3) print("a\n",a)
+
+print("M\n",M)
+
+print("M+a\n",M+a) anpy.arange(3).reshape((3,1))
+
+b = npy.arange(3)
+
+print("a is:\n",a) print("b is:\n",b) print("a+b is:\n",a+b)
+
+M = npy.ones((3, 2))
+
+a = npy.arange(3)
