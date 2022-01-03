@@ -68,3 +68,17 @@ print("a is:\n",a) print("b is:\n",b) print("a+b is:\n",a+b)
 M = npy.ones((3, 2))
 
 a = npy.arange(3)
+
+import numpy as np import matplotlib.pyplot as plt
+
+#Computer x and y coordinates for points on sine and cosine curv xnp.arange(0,3*np.pi, 0.1) print("x",x)
+
+y_sine = np.sin(x) y cosine = np.cos(x)
+
+plt.plot(x, y sine) plt.plot(x, y_cosine)
+
+#plot the points using plt.xlabel('x values') plt.title('plot of sine and cosine functions') plt.legend(['sine', 'cosine'])
+
+plt.ylabel('y values')
+
+plt.show()
