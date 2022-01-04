@@ -55,3 +55,27 @@ name setup()
 main
 
 try: While True:
+
+print("00")
+
+Logic00()
+
+time.sleep (1)
+
+print("01") Logicel()
+
+time.sleep (1)
+
+print("10") Logic10()
+
+time.sleep (1)
+
+Logic11()
+
+time.sleep (1)
+
+except KeyboardInterrupt:
+
+print("Keyboard Interrupt Detected")
+
+destroy()
