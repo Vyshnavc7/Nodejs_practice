@@ -25,3 +25,33 @@ GPIO output (r1, True) GPIO output (r2. True)
 def logic01(): GPIO output (LED1, True)
 
 GPIO.output (LED2, False)
+
+GPIO.output (r1, True) GPIO.output (r2, False)
+
+def Logic10():
+
+GPIO.output (LED1, False) GPIO output (LED2, True)
+
+GPIO output (r1, False)
+
+GPIO output (r2, True)
+
+def
+
+204
+
+Logicll():
+
+GPIO output (LED1, False) GPIO output (LED2, False)
+
+GPIO output (rl, False) GPIO output (r2, False)
+
+def destroy(): GPIO.cleanup()
+
+if
+
+name setup()
+
+main
+
+try: While True:
